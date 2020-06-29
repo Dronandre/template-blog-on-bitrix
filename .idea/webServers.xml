@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c7110b47-3bef-45ab-abf4-49a43cfc9c6f" name="localhost" url="http://bitrixbitrix">
+        <fileTransfer mountedRoot="E:\openserver\OSPanel\domains\bitrix" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>

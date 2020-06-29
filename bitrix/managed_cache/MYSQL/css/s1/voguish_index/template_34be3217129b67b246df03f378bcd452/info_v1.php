@@ -1,0 +1,1 @@
+<?php $filesInfo = array("/local/templates/.default//css/bootstrap.css" => "1411977212121243","/local/templates/.default//css/style.css" => "143237698043293",); ?>

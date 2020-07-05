@@ -1,0 +1,1 @@
+<?php $filesInfo = array("/local/templates/voguish_blog/css/bootstrap.css" => "1411977212121243","/local/templates/voguish_blog/css/style.css" => "159361369643315",); ?>

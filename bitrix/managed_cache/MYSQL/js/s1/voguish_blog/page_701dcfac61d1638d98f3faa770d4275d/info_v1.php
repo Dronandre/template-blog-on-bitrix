@@ -1,0 +1,1 @@
+<?php $filesInfo = array("/local/templates/voguish_blog/components/bitrix/catalog.comments/my_comm1/script.js" => "15936197885833",); ?>

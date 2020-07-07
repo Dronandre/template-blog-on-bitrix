@@ -1,0 +1,1 @@
+<?php $filesInfo = array("/local/templates/voguish_index/components/bitrix/search.page/search_page/style.css" => "1594135497163",); ?>

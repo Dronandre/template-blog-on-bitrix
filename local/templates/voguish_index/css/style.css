@@ -393,6 +393,9 @@ ul.callbacks_tabs.callbacks1_tabs {
 .blog-grid-right h4{
   margin: 0;
 }
+.blo-top ul {
+	padding: 0;
+}
 .blo-top {
   padding: 1em 1em;
   border: 1px solid #D8DADC;

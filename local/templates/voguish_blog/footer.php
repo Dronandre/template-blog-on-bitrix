@@ -1,12 +1,19 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
 </div>
 <div class="blog-content-right">
-    <div class="b-search">
-        <form>
-            <input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
-            <input type="submit" value="">
-        </form>
-    </div>
+    <?$APPLICATION->IncludeComponent("bitrix:search.form", "seach", Array(
+	"PAGE" => "#SITE_DIR#search/index.php",	// Страница выдачи результатов поиска (доступен макрос #SITE_DIR#)
+		"USE_SUGGEST" => "N",	// Показывать подсказку с поисковыми фразами
+		"COMPONENT_TEMPLATE" => ".default"
+	),
+	false
+);?>
+<!--    <div class="b-search">-->
+<!--        <form>-->
+<!--            <input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">-->
+<!--            <input type="submit" value="">-->
+<!--        </form>-->
+<!--    </div>-->
     <!--start-twitter-weight-->
     <div class="twitter-weights">
         <h3>Tweet Widget</h3>

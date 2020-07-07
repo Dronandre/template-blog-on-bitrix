@@ -1,0 +1,1 @@
+<?php $filesInfo = array("/local/templates/voguish_index/css/bootstrap.css" => "1411977212121243","/local/templates/voguish_index/css/style.css" => "159385774843293","/bitrix/components/bitrix/news.list/templates/.default/style.css" => "1592841216150",); ?>

@@ -1,0 +1,1 @@
+<?php $filesInfo = array("/local/templates/voguish_index/components/bitrix/news.list/top_slider/style.css" => "1594210158150",); ?>

@@ -1,0 +1,1 @@
+<?php $filesInfo = array("/local/templates/voguish_single/components/bitrix/system.auth.form/login/style.css" => "1523091091424",); ?>

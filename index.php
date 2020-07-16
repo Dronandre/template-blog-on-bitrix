@@ -94,6 +94,38 @@ $APPLICATION->SetTitle("Voguish - сайт моды");
         <div class="clearfix"> </div>
     </div>
 </div>
+
+<?php
+//CModule::IncludeModule('iblock');
+//$arSelect = Array("ID", "IBLOCK_ID", "NAME", "PREVIEW_TEXT", "DETAIL_PAGE_URL", "DETAIL_PICTURE");
+//$arFilter = Array("IBLOCK_ID"=>1, "ACTIVE_DATE"=>"Y", "ACTIVE"=>"Y", "!PROPERTY_SHOW_MAIN"=>false);
+//$res = CIBlockElement::GetList(Array(), $arFilter, false, Array("nPageSize"=>4), $arSelect);
+//?>
+<?php //debug($arSelect);?>
+<?php //if($res->arResult): $i = 0; ?>
+<!--    <div class="nam-matis">-->
+<!--        --><?php //while($ob = $res->GetNextElement()): $arFields = $ob->GetFields(); ?>
+<!--            --><?php //if($i % 2 == 0): ?>
+<!--                <div class="nam-matis-top">-->
+<!--            --><?php //endif; ?>
+<!--            --><?php //$img = CFile::GetPath($arFields["DETAIL_PICTURE"]); ?>
+<!--            <div class="col-md-6 nam-matis-1">-->
+<!--                <a href="--><?//= $arFields['DETAIL_PAGE_URL'] ?><!--"><img src="--><?//= $img ?><!--" class="img-responsive" alt="--><?//= $arFields['NAME'] ?><!--"></a>-->
+<!--                <h3><a href="--><?//= $arFields['DETAIL_PAGE_URL'] ?><!--">--><?//= $arFields['NAME'] ?><!--</a></h3>-->
+<!--                <p>--><?//= mbCutString($arFields['PREVIEW_TEXT'], 100) ?><!--</p>-->
+<!--            </div>-->
+<!---->
+<!--            --><?php //if($i % 2 == 1): ?>
+<!--                <div class="clearfix"> </div>-->
+<!--            --><?php //endif; ?>
+<!---->
+<!--            --><?php //if($i % 2 == 1): ?>
+<!--                </div>-->
+<!--            --><?php //endif; ?>
+<!--            --><?php //$i++; endwhile; ?>
+<!--    </div>-->
+<?php //endif; ?>
+
 <!-- nam-matis -->
 
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

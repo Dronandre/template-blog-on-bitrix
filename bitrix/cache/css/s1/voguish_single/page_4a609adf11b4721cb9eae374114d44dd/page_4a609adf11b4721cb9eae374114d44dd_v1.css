@@ -1,0 +1,12 @@
+
+
+/* Start:/local/templates/voguish_single/components/bitrix/main.feedback/contact_form/style.css?1594719982293*/
+div.mfeedback {}
+div.mf-name, div.mf-email, div.mf-captcha, div.mf-message {width:80%; padding-bottom:0.4em;}
+div.mf-name input, div.mf-email input {width:60%;}
+div.mf-message textarea {width: 60%;}
+span.mf-req {color:red;}
+div.mf-ok-text {color:green; font-weight:bold; padding-bottom: 1em;}
+
+/* End */
+/* /local/templates/voguish_single/components/bitrix/main.feedback/contact_form/style.css?1594719982293 */
